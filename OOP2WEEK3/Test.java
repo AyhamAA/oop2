@@ -1,3 +1,4 @@
+
 package CirPKJ;
 public class Circle {
     public static final double PI=3.14 ; 
@@ -17,6 +18,13 @@ public class Circle {
     public void setRad(int rad) {
         this.rad = rad;
     }
-    
+    public double getArea(){
+        double Area=PI*rad*rad ; 
+        return Area ;
+    }
+   public double getround(){
+       double round=PI*2*rad ; 
+       return round ; 
+   } 
     
 }
