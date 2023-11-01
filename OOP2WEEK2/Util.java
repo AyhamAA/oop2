@@ -7,6 +7,9 @@ public class Util {
     public static void println(String msg) {
         System.out.println(msg);
     }
+      public static void println(int msg) {
+        System.out.println(msg);
+    }
     public static int readNumber(String msg) {
         String str = JOptionPane.showInputDialog(msg);
         int number = Integer.parseInt(str);
